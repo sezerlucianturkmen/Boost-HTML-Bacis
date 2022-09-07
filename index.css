@@ -1,0 +1,73 @@
+h1{color: aqua}
+h2{color:blueviolet}
+h3{color:rgb(171, 226, 43)}
+h4{color:rgb(43, 55, 226)}
+h5{color:rgb(175, 24, 13)}
+h6{color:rgb(33, 214, 57)}
+
+span{
+    background-color: bisque;
+    color: blue;
+    font-size: 19pt;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+img{
+    height: 300px;
+    size-adjust: 300px;
+    background-color: red ;
+    margin-right: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.parablue{     
+padding:15px ; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size:medium;   
+font-weight: bold; 
+color: rgb(39, 21, 207);
+background-color: rgb(110, 191, 211);
+transition: transform .1s; /* Animation */
+    margin: 0 auto;
+}
+
+
+.box2{
+padding:10px;
+font-size:xx-large;
+background-color: dodgerblue;
+border: 2px solid red;       
+border-radius:10px !important; /* atanan fakrlı sınıflarda aynı deger varsa bu tag lı olan öncelik alıyor*/    
+}
+.box3{
+padding:10px 30px 10px 5px; /* saat yönünü yersinde*/
+font-size:xx-large;
+color: black;
+background-color: rgb(213, 255, 24);
+border-radius: 50px;
+border: 2px dotted red;       
+}
+p{
+padding:5px; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size:small;      
+background-color: rgb(230, 236, 195); 
+}
+.para{
+margin-left: 30px;
+padding:5px 30px; 
+font-family: Verdana, Geneva, Tahoma, sans-serif; 
+font-size:small ;  
+font-style: italic;   
+font-weight: bold; 
+color: rgb(219, 210, 210);
+text-decoration: underline ;
+background-color: rgb(185, 116, 51);
+border-bottom-left-radius:40px ;
+border-top-right-radius: 40px;
+}
