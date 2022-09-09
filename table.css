@@ -52,3 +52,29 @@ button:focus{
     background-color: goldenrod;
     /*display: none;*/
 }
+
+ul li{
+    list-style: lower-roman;
+    text-decoration: underline;
+    font-size: 30px;
+    color: blue;
+}
+
+.list-style{
+    text-decoration: underline;
+    color: rgb(79, 139, 218);
+    font-size: larger;
+}
+.list-style-inner{
+    
+    color: rgb(0, 0, 0);
+    font-size: smaller;
+}
+
+ul ul li{
+    list-style: decimal;
+    font-size: 15px;
+    color: #000;
+    text-decoration: none !important;
+}
+
